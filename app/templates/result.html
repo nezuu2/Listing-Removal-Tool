@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スクレイピング結果</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #333; }
+        .result { margin-top: 20px; }
+        .headings { margin-top: 20px; }
+        .headings h2 { color: #444; }
+        .headings ul { padding-left: 20px; }
+        .headings li { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h1>スクレイピング結果</h1>
+
+    <div class="result" id="container">
+        <h2>スクレイピングを実行しています。</h2>
+    </div>
+
+    <br>
+    <a href="{{ url_for('index') }}">中断して、戻る</a>
+    <script>
+        document.getElementById('addElementBtn').addEventListener('click', function() {
+            // 新しい<p>要素を作成
+            var newElement = document.createElement('h2');
+            newElement.textContent = '新しいパラグラフ';
+
+            // #resultに新しい<p>要素を追加
+            document.getElementsById('container').appendChild(newElement);
+        });
+    </script>
+</body>
+</html>

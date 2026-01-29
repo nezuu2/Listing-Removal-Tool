@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出品取り消しツール</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>出品取り消しツール</h1>
+    <form method="POST">
+        <input type="submit" value="出品取り消しを開始する。">
+        <p>チェックする時間</p>
+        <input type="time" name="checktime" placeholder="こちらから時間を指定して下さい。">
+        <input type="time" name="checktime2" placeholder="こちらから時間を指定して下さい。">
+        <p>ループ間隔（分）</p>
+        <input type="number" name="interval" placeholder="分単位で指定（デフォルト: 180分）" value="180">
+        <p>指定した時間ごとに処理を実行</p>
+        <input type="time" name="looptime" placeholder="こちらから時間を指定して下さい。">
+        <p>メール</p>
+        <!-- <input type="email" name="mail" required placeholder="example@example.com"> -->
+        <input type="email" name="mail" placeholder="example@example.com">
+    </form>
+
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+</body>
+
+</html>

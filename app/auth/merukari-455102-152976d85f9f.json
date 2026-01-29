@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "merukari-455102",
+  "private_key_id": "152976d85f9f4fb06de4be6f4feeaa98ce9cfd98",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC+30BMkcPgSHoe\nb8XWofK9L8wk3rcyMXQ8AzbDyleFz+gmj+Vfz7zcjo6lggQqF/D36dMr70tH3nbo\nkyS6JvNeJ4blQAe+oXur/AKBXAd+9IwEqEQ86z/DKMnmzgrz7dnkQPa5fMoUAU0f\nDs9nWZHNY072VeSvK3bxmRHwc7x/XGqpyKGmkzond1jzqEMIz1VMmiIWayA8sI3p\nYGTeRY8/rM5vM/hzA3RHlnHGvC+3hWVmlGhGFPSCd+ey8xV8SJE383+EVXdNXUI4\n5xfg4VLzy40eMxF87ZpFpRise08JX2RoAajFsWlRaJrPdf3Lrk8tZ2vI6Ki+W3g6\nfjfpl3uHAgMBAAECggEAEX34MIwzPTynJF7t7IuO6VOWC9L1Sv5JPq60uCC1AKhb\nCB2r0aoCDtxpqjVOGGV1SeL93UrixUVX9Fx3wy+KohhRPnUtwISgBtTjjeNXNIVI\nx6x8BHEyuLnmNuavDke/7jEd60XKZybvYGdFDp2gxQfS1rRsbrk2/1Ed2cFhhvJS\ns5wbSarVpz06J0A+QiJmHZJq4Gjlhnr2kZwoxy52OG5Ng2TcrdiPrkRfB9hRpfw0\n55LvWWJxm3HwsutWpFBpD0v+bx9MnvI3JGQHmSfirtYRJRaP1bBdRr2FElNiVzSG\nTeYQF2+r+BNRGQofWDAtKnCPIOxc58K0Td9QFs1WYQKBgQDjk3Jk5gZU0dzQ8vzi\nMOTO/qkObBJxBvAVNz+HEESx41BQGvmm7J2ctUwsKAm0HtkhQcLbtqGAVMkAb2DV\nHZZHrar55x3mlIkVTvYNv76xj10vQVdnDW1gdjUebmbnqQtUqHUrSGvc4m2Z0T1f\nf36oQeFuSbLeVoDWat4t9ClXuQKBgQDWtjpSq6jNCRk8Xf/LeQHJZVy53Sn4opfD\nbxekoZ8cUjHJXDmiI7aBxsz8uTyxCLHwnCw2s7C0ddKH64Iog+et47+10ST9/+Pb\neeApMcfZHSG6u+Eq5Msz92KELjRCGQYqabA1pYTT96niCGYf3IgU8vOjPcLiL0QU\nyT90V+qNPwKBgQChexOV4t6lOxDLt0+XlIgXFP6SfD8NspWTCFPsm6+S5jAr1yhE\nuOsRsldtka9o/ualQYtp6gppDEBgLafxMQBcti93CfbekZE/7HqNwPwn9Al0KZJC\nTnXJF7eTc1VTllCy7qHNZ6MZ5hVNKvq4k7gk3jJ+1o60U38yJjynMPRRCQKBgQCm\n85UQGTgtDekYfoLapSHVhsJ+J1FuaocVSLmaoq2EqQjbaKHLyHcuG/XigOqHQZqS\n2+ypMDmzaHYmh+JyPHaWSKQV7SUVd7amPvMlNPcPhE5o05Q29SZoJvDslLy/tJON\nwRZp8GUDKO1ou10lYyZRG8SEZw61L0mB3CZCAeZ4owKBgAbC++ZRFn422iFGG8ms\n46RHOT13ByykJbYtMlxzbPo2Tj8hthoU6lAXqyJA2yePvijDr0hX53IIL/W83iCk\nbz7MtoaxNKED1sundzO2VsydXKmGLcDWHtbAsYW6/LpO8dJPi6BKk7ogrvxhJWKx\nATz2gj7qkKLjsi9OWObHZq3o\n-----END PRIVATE KEY-----\n",
+  "client_email": "edison-hayato@merukari-455102.iam.gserviceaccount.com",
+  "client_id": "104037750941606459264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/edison-hayato%40merukari-455102.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
